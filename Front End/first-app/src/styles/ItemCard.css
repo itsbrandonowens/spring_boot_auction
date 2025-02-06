@@ -1,0 +1,98 @@
+.itemCard {
+  border-radius: 10px;
+  margin-top: 2%;
+  box-shadow: 0px 0px 15px rgba(50, 50, 50, 0.75);
+  width:16vw;
+  height:16vw;
+  
+}
+
+.itemButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.itemDetails {
+  margin-left: 0;
+  margin-right: auto;
+  text-align: center;
+  color: black;
+  font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+  font-weight:200;
+  font-size:1vw;
+}
+
+.details_name {
+  font-size:1vw;
+  font-weight:500;
+  font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+.details_description {
+  font-size:0.8vw;
+  font-style: italic;
+  font-weight:200;
+  font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+.details_price {
+  font-size:1vw;
+  font-weight:500;
+  color:#176d08;
+  font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+.image {
+  width: 10vw;
+  height:8vw;
+  border-radius: 5px;
+  filter: drop-shadow(0 0 3px rgb(0, 0, 0));
+  margin-bottom:2%;
+}
+
+
+.bid_button {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-bottom:3%;
+ }
+ 
+ .bid_button:hover,
+ .bid_button:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+ }
+ 
+ .bid_button:hover {
+  transform: translateY(-1px);
+ }
+ 
+ .bid_button:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+ }

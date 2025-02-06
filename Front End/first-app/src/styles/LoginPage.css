@@ -1,0 +1,36 @@
+form {
+    text-align: left;
+  }
+  
+  label {
+    margin-left: 20px;
+    font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+  }
+  
+  input {
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .buttonLogin {
+    margin-left: 20px;
+    
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .bidForm {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+  
+  
+  
